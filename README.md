@@ -1,2 +1,7 @@
 # sa_academy_api
-api gateway for software architecture's course
+
+API Gateway
+
+* JavaScript
+* Node.js
+* GraphQL

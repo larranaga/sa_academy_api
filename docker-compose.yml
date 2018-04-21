@@ -1,0 +1,18 @@
+version: '2.1'
+services:
+  academy-api:
+    build: .
+    environment:
+      PORT: '6000'
+      SHOW_URLS: 'true'
+      STUDENTS_URL: '192.168.99.101'
+      STUDENTS_PORT: '4000'
+      STUDENTS_ENTRY: 'students/'
+      COURSES_URL: '192.168.99.101'
+      COURSES_PORT: '4500'
+      COURSES_ENTRY: 'courses/'
+      GRADES_URL: '192.168.99.101'
+      GRADES_PORT: '4002'
+      GRADES_ENTRY: 'student_grades/'
+    ports:
+      - '6000:6000'
